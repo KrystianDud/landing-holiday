@@ -1,0 +1,23 @@
+.section-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.heading-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0.5rem;
+    
+}
+
+.section-button {
+    border: none;
+    background: none;
+    color: #FF8A11;
+    cursor: pointer;
+}

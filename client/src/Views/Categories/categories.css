@@ -1,0 +1,18 @@
+.categories {
+    background-color: #F6F6F6;
+    width: 100%;
+    padding-top: 6rem;
+
+}
+
+.categories-container {
+    margin-inline: 4rem;
+}
+
+.categories-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 4rem;
+}

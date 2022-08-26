@@ -1,0 +1,22 @@
+.input{
+    margin: .5rem;
+    border: none;
+    border-bottom: 1px solid #707070;
+    background: none;
+    width: 50%;
+}
+
+.input::placeholder{  
+    color: #707070;
+}
+
+@media screen and (max-width: 600px) {
+    .input{
+        margin: .5rem;
+        border: none;
+        border-bottom: 1px solid #707070;
+        background: none;
+        width: 100%;
+    }
+    
+}

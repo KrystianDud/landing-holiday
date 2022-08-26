@@ -1,0 +1,52 @@
+.nav {
+    max-height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    z-index: 101;
+}
+
+.navfull {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-inline: 2rem;
+}
+
+.navfull-item {
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    transition: .1s;
+}
+
+.navfull-item:hover {
+    font-size: 1.83rem;
+    font-weight: 450;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .navfull {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin: 1rem;
+        color: #fff;
+    }
+}

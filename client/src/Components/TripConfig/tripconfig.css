@@ -1,0 +1,44 @@
+.trip-bar {
+    position: relative;
+    left: 20%;
+    top: -45px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+
+    box-shadow: 3px 5px 15px #0000003f;
+    border-radius: 15px;
+    padding: 1rem;
+
+    /* min-width: 354px; */
+    max-width: 650px;
+    height: 90px;
+    flex: 1;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .trip-bar {
+        position: relative;
+        left: 1rem;
+        top: -45px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+
+        box-shadow: 3px 5px 15px #0000003f;
+        border-radius: 15px;
+        padding: 0.5rem;
+
+        max-width: fit-content;
+        height: 90px; 
+    }
+
+}
